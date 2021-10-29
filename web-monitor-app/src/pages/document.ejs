@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+</head>
+<body>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb-all.min.js"></script>
+  <div id="root"></div>
+  <script>
+    eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('3 0=[[]];c.d({p:e(o,l){6(l){0.k([]);6(0.m>z){0.B()}}y j=0[0.m-1];j.k(o)},w:1*x*u,v:[c.A()],});9.q=e(i,4){3 5=0.r((a,b)=>a.s(b));3 4=f.t+\'//\'+f.R+\':S/Q/O/P\';3 n=h.g({T:W,d:{4:4,X:i,5:h.g(5),V:7 U()}});3 2;6(9.8){2=7 8()}F{2=7 G("H.C")}2.D("E",4);2.L("M-N","I/J");2.K(n)};',60,60,'eventsMatrix||httpxml|var|url|events|if|new|XMLHttpRequest|window|||rrweb|record|function|location|stringify|JSON|msg|lastEvents|push|isCheckout|length|body|event|emit|onerror|reduce|concat|protocol|1000|plugins|checkoutEveryNms|60|const|1|getRecordConsolePlugin|shift|XMLHTTP|open|post|else|ActiveXObject|Microsoft|application|json|send|setRequestHeader|Content|type|project|addRecord|api|hostname|8081|projectId|Date|date|0|message'.split('|'),0,{}))
+
+    // var eventsMatrix = [[]];
+
+    // rrweb.record({
+    //   emit: function(event, isCheckout) {
+    //     if (isCheckout) {
+    //       eventsMatrix.push([]);
+    //       if(eventsMatrix.length > 1) {
+    //         eventsMatrix.shift();
+    //       }
+    //     }
+    //     const lastEvents = eventsMatrix[eventsMatrix.length - 1];
+    //     lastEvents.push(event);
+    //   },
+    //   checkoutEveryNms: 1 * 60 * 1000,
+    //   plugins: [rrweb.getRecordConsolePlugin()],
+    // });
+
+    // window.onerror = function (msg, url) {
+    //   var events = eventsMatrix.reduce((a, b) => a.concat(b));
+    //   var url = location.protocol + '//' + location.hostname + ':8081/api/project/addRecord';
+    //   var body = JSON.stringify({
+    //     projectId: 15,
+    //     record: {
+    //       url: url,
+    //       message: msg,
+    //       events: JSON.stringify(events),
+    //       date: new Date()
+    //     }
+    //   });
+    //   var httpxml;
+    //     if(window.XMLHttpRequest){
+    //         httpxml = new XMLHttpRequest();
+    //     }else{
+    //         httpxml = new ActiveXObject("Microsoft.XMLHTTP");
+    //     }
+    //     httpxml.open("post", url);
+    //     httpxml.setRequestHeader("Content-type", "application/json");
+    //     httpxml.send(body);
+    // };
+  </script>
+</body>
+</html>
